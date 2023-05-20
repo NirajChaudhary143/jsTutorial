@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>length</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var myName = "Niraj";
+		// alert(myName+ " has "+ myName.length+ " length");
+		var tweet=prompt("Enter your bio");
+		var tweetCount=tweet.length;
+		// alert("You have written "+ tweetCount+" charcters, you have "+ (140-tweetCount)+" charcters remaining.")\
+		if (tweetCount<=140) {
+			alert("You have written "+ tweetCount+" charcters, you have "+ (140-tweetCount)+" charcters remaining.");
+		}
+		else{
+			alert(tweet.slice(0,140));
+		}
+		</script>
+</body>
+</html>

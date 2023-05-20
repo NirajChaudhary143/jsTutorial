@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>capitalization of string</title>
+</head>
+<body>
+	<script type="text/javascript">
+			var firstName=prompt("What is your frist name?");
+			var lastName=prompt("What is your last name?");
+			// alert(firstNameyourName.toUpperCase());
+			var firstCharacterOfFirst=firstName.slice(0,1);
+			var firstCharacterOfLast=lastName.slice(0,1);
+			// alert(firstCharacter);
+			var firstUpper=firstCharacterOfFirst.toUpperCase();
+			var lastUpper=firstCharacterOfLast.toUpperCase();
+			var firstNameSmall=firstName.toLowerCase();
+			var lastNameSmall=lastName.toLowerCase();
+			alert("Your name is "+firstUpper+firstNameSmall.slice(1,firstNameSmall.length)+" "+lastUpper+lastNameSmall.slice(1,lastNameSmall.length));
+	</script>
+</body>
+</html>
